@@ -1,3 +1,5 @@
+import math 
+
 nome = input("digite seu nome: ")
 print("Opção 1: soma ")
 print("Opção 2: subtração ")
@@ -22,3 +24,7 @@ elif opcao == 4:
     numero1 = float(input("digite o primeiro número da multiplicação: "))
     numero2 = float(input("digite o segundo número da multiplicação:  "))
     multiplicacao = numero1 * numero2
+elif opcao == 5:
+    numero1 = float(input("digite o primeiro número da potenciação: "))
+    numero2 = float(input("digite o segundo número da potenciação:  "))
+    potenciacao = math.pow(numero1,numero2)
